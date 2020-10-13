@@ -194,8 +194,10 @@ td{
 }
 
 .table-footer{
+    display: block;
     font-size: 18px;
     line-height: 26px;
+    font-style: italic;
     margin: 0px 0px 20px 0px;
     border-bottom: 1px solid #DBDBDB;;
 }
@@ -241,4 +243,21 @@ td{
     font-size: 18px;
     line-height: 26px;
     margin: 0px;
+}
+
+footer a{
+    color: white;
+    font-style: unset;
+    border-radius: 10%;
+    background-color: rgb(78, 78, 199);
+    padding: 10px;
+    margin:10px;
+}
+footer a:hover{
+    background-color: rgb(116, 116, 197);
+
+}
+
+footer a:checked{
+    color: rgb(218, 223, 180);
 }

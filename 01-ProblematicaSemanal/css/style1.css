@@ -223,3 +223,20 @@ td{
     font-size: 12px;
     letter-spacing: 2px;
 }
+
+footer a{
+    color: white;
+    font-style: unset;
+    border-radius: 10%;
+    background-color: rgb(78, 78, 199);
+    padding: 10px;
+    margin:10px;
+}
+footer a:hover{
+    background-color: rgb(116, 116, 197);
+
+}
+
+footer a:checked{
+    color: rgb(218, 223, 180);
+}
