@@ -193,6 +193,13 @@ td{
     font-size: 14px;
 }
 
+.table-footer{
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0px 0px 20px 0px;
+    border-bottom: 1px solid #DBDBDB;;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -222,4 +229,16 @@ td{
     margin: 0px 30px;
     font-size: 12px;
     letter-spacing: 2px;
+}
+
+.highlight-box{
+    border:1px solid #DBDBDB;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.highlight-box-text{
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0px;
 }
